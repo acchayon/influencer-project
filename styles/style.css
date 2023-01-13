@@ -1,0 +1,207 @@
+/* font link */
+@import url('https://fonts.googleapis.com/css2?family=BhuTuka+Expanded+One&family=Inter&family=Open+Sans&family=Poppins:wght@500&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Smooch+Sans:wght@100&family=Supermercado+One&family=Tiro+Devanagari+Hindi:ital@0;1&family=Work+Sans&display=swap');
+/* common css & utilities part */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    margin: 80px 120px;
+    font-family: 'Poppins', sans-serif;
+}
+.btn-primary{
+    font-weight: 700;
+    font-size: 16px;
+    background: #E02C6D;
+    border-radius: 41px;
+    color: #ffffff;
+    padding: 10px 24px;
+    border: none;
+}
+.btn-primary span{
+    font-size: 18px;
+    margin-left: 8px;
+}
+/* header section design css */
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-title{
+    font-weight: 700;
+    font-size: 24px;
+    color: #3A3A3A;
+}
+.nav ul{
+    display: flex;
+    gap: 30px;
+}
+.nav ul li{
+    list-style: none;
+    color: #3A3A3A;
+    font-size: 16px;
+}
+
+/* -------------------
+    banner section design 
+------------------------ */
+.banner-section{
+    margin-top: 100px;
+}
+.banner{
+    display: flex;
+    background-image: url(../images/Circle\ design.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.banner-title{
+    font-weight: 700;
+    font-size: 52px;
+    color: #3A3A3A;
+}
+.banner-paragraph{
+    margin-top: 16px;
+    font-weight: 600;
+    font-size: 16px;
+    color: #3A3A3A;
+    margin-bottom: 16px;
+}
+
+/* ---------------
+    logo section
+----------------- */
+.logo-section{
+    width: 165px;
+}
+.logos{
+    display: flex;
+    gap: 60px;
+    padding: 0 60px;
+    /* justify-content: space-between; */
+}
+
+/* -- --- ---- -----
+  product section css
+--- --- --- ---- ---  */
+.product-section{
+    margin-top: 100px;
+}
+.product-section .see{
+    margin-top: 60px;
+    text-align: right;
+    padding-right: 30px;
+    font-weight: 700;
+    font-size: 16px;
+    color: rgba(224, 44, 109, 0.87);
+}
+.popular-title{
+    font-weight: 600;
+    font-size: 28px;
+    color: #3A3A3A;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.product{
+    box-sizing: border-box;
+    width: 329px;
+    height: 476px;
+    padding: 15px;
+    box-shadow: 2px 15px 15px 15px rgba(0, 0, 0, 0.2);
+}
+.product-img{
+    width: 300px;
+    height: 256px;
+    border-radius: 5px;
+}
+.product-items{
+    display: grid;
+    flex-direction: column;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 50px;
+}
+.product-title{
+    margin: 16px 0 10px 0;
+    font-weight: 500;
+    font-size: 28px;
+    color: #18191F;
+}
+.product-price{
+    font-weight: 400;
+    font-size: 24px;
+    color: rgba(0, 0, 0, 0.87);
+    margin-bottom: 10px;
+}
+
+.fa-star.filled{
+    color: #FB8200;
+}
+.product-info{
+    font-weight: 700;
+    font-size: 14px;
+    color: #787885;
+}
+
+/*----------------
+ featured-section 
+ -----------------*/
+.featured-section{
+    margin-top: 100px;
+    margin-bottom: 150px;
+}
+.featured{
+    display: flex;
+    gap: 90px;
+}
+.f-img{
+    width: 404px;
+    height: 270px;
+}
+.f-title{
+    font-weight: 700;
+    font-size: 38px;
+    color: #0A0826;
+    margin-bottom: 20px;
+}
+.f-para{
+    font-weight: 700;
+    font-size: 16px;
+    color: #6C6C6C;
+    margin-bottom: 20px;
+}
+
+/* -----------
+Footer section
+-------------
+*/
+.footer-section{
+    background-color: #0a0826;
+    width: 100%;
+    color: white;
+}
+.footer{
+    display: grid;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px 0;
+}
+.footer-title{
+    font-weight: 700;
+    font-size: 28px;
+    margin-bottom: 5px;
+}
+.copyright{
+    margin-bottom: 5px;
+}
+.reserve{
+    margin-bottom: 30px;
+}
+.f-icon ul{
+    display: flex;
+    justify-content: space-around;
+}
+.f-icon ul li{
+    list-style: none;
+    font-size: 20px;
+}
